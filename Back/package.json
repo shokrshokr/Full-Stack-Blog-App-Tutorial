@@ -1,15 +1,15 @@
 {
   "dependencies": {
     "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
     "dotenv": "^9.0.2",
     "express": "^4.17.1",
-    "mongoose": "^5.12.9",
-    "multer": "^1.4.2",
+    "mongoose": "^5.13.13",
+    "multer": "^1.4.4",
     "nodemon": "^2.0.7",
-    "path": "^0.12.7",
-	"mysql": "^2.18.1"
+    "path": "^0.12.7"
   },
-  "name": "02-back-end",
+  "name": "api",
   "version": "1.0.0",
   "main": "index.js",
   "devDependencies": {},
@@ -20,4 +20,3 @@
   "license": "ISC",
   "description": ""
 }
-

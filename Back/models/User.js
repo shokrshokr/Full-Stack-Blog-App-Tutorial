@@ -1,4 +1,4 @@
-/*const mongoose = require("mongoose");
+const mongoose = require("mongoose");
 
 const UserSchema = new mongoose.Schema(
   {
@@ -24,9 +24,9 @@ const UserSchema = new mongoose.Schema(
   { timestamps: true }
 );
 
-module.exports = mongoose.model("User", UserSchema);*/
+module.exports = mongoose.model("User", UserSchema);
 
-const mysql = require('mysql');
+/*const mysql = require("mysql");
 
 const UserSchema = new mysql.Schema(
   {
@@ -52,4 +52,4 @@ const UserSchema = new mysql.Schema(
   { timestamps: true }
 );
 
-module.exports = mysql.model("User", UserSchema);
+module.exports = mysql.model("User", UserSchema);*/

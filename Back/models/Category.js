@@ -1,4 +1,4 @@
-/*const mongoose = require("mongoose");
+const mongoose = require("mongoose");
 
 const CategorySchema = new mongoose.Schema(
   {
@@ -11,9 +11,9 @@ const CategorySchema = new mongoose.Schema(
   { timestamps: true }
 );
 
-module.exports = mongoose.model("Category", CategorySchema);*/
+module.exports = mongoose.model("Category", CategorySchema);
 
-const mysql = require('mysql');
+/*const mysql = require('mysql');
 
 const CategorySchema = new mysql.Schema(
   {
@@ -26,4 +26,4 @@ const CategorySchema = new mysql.Schema(
   { timestamps: true }
 );
 
-module.exports = mysql.model("Category", CategorySchema);
+module.exports = mysql.model("Category", CategorySchema);*/
